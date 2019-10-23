@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Zeichenkettentrennungsmachine</h2>
+    <form action="javascript:work();">
+        <label>Zu trennende Zeichenkette:</label><br>
+        <input type="text" id="text" required><br>
+        <label >Zeichenkette für de Trennungsposition:</label><br>
+        <input type="text" id="cutPosition" required><br><br>
+        <input type="radio" name="position" id="davor" required>davor<br>
+        <input type="radio" name="position" id="danach" required>danach<br><br>
+        <button type="submit">trenne</button><br><br>
+        vorder:<p id="answervor"></p>
+        hinteter:<p id="answerhin"></p>
+    </form>
+    <script src="js/script.js"></script>
+</body>
+</html>
